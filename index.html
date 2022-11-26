@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="col-sm-12 disply">
+        <div><h1>MY FORM</h1></div>
+    <fieldset>
+        <legend><h2>Personal Info</h2></legend>
+        <p>First Name: <input type="text" placeholder="Enter Your Name" id="user" required></p>
+        <p>Last Name: <input type="text" placeholder="Enter Last Name" id="last" required></p>
+        <p>Email Add: <input type="text" placeholder="Enter Email Adrees" id="email" required></p>
+        <p>Password: <input type="text" placeholder="Password" id="pass" required></p>
+        <button onclick="getValue()">Submit</button>
+    </fieldset>
+</div>
+<div>
+    <p id="userError">F/N Error:</p>
+    <p id="lastError">L/N Error</p>
+    <p id="emailError">E/A Error</p>
+    <p id="passError">P/W Error</p>
+</div>
+
+
+    
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
